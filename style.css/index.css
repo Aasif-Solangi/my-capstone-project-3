@@ -1,0 +1,203 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+:root {
+  --primary-color: #ff6924;
+  --secondary-color: #010148;
+  --text-color: #808080;
+  --background-color: #ff8d00;
+}
+
+#header-bg {
+  background-color: #5fa232;
+}
+
+.login-text:hover {
+  background-color: #50882a;
+  padding: 14px 12px;
+  transition: 0.8s;
+}
+
+.top-icons .icon {
+  background-color: #afd199;
+}
+
+.top-icons .icon:hover {
+  background-color: #ffffff;
+  transition: 0.7s;
+}
+
+.bg-image {
+  background-image: url(../images/bg-image-1.jpg);
+  height: 90vh;
+}
+
+#hero-heading {
+  margin-top: 10%;
+}
+
+#organic {
+  color: #ff6924;
+}
+
+.btns button {
+  background-color: #ff6924;
+}
+
+.btns button:hover {
+  background-color: #5fa232;
+  transition: 0.7s;
+}
+
+.btns .about-btn {
+  background: none;
+  border: 2px solid #ff6924;
+}
+
+/*first cards section */
+.top-heading h1 span {
+  color: var(--primary-color);
+}
+.top-heading p {
+  color: var(--text-color);
+}
+
+.top-heading h1 {
+  color: var(--secondary-color);
+}
+
+/* second cards */
+.card-img-bg {
+  background-color: #fdeee7;
+}
+
+.cards-styling h5 {
+  color: var(--secondary-color);
+}
+
+.cards-styling p {
+  color: var(--primary-color);
+}
+
+.cards-styling button {
+  background-color: var(--background-color);
+}
+
+.cards-styling button:hover {
+  background-color: var(--background-color);
+}
+
+.new-price {
+  color: var(--secondary-color);
+}
+
+.bg-img-2 {
+  background-image: url(../images/bg-image-2.png);
+  height: 80vh;
+}
+
+.card-title {
+  color: var(--secondary-color);
+}
+
+.card-text {
+  color: var(--text-color);
+}
+
+.card-btn {
+  background: none;
+  border-color: var(--background-color);
+  color: var(--secondary-color);
+}
+
+.erro {
+  border: 2px solid var(--primary-color);
+}
+
+/* fruit-section */
+.fruit-section h5 {
+  color: var(--secondary-color);
+}
+
+/* bg-image-2  */
+.bg-image-3 {
+  background-image: url(../images/bg-image-2.jpg);
+}
+
+.organic-heading {
+  margin-top: 3%;
+}
+
+.organic-heading span {
+  color: #9f4921;
+}
+
+.organic-heading button {
+  background-color: #5fa232;
+}
+
+/* Products Buttons */
+.buttons button {
+  background: none;
+}
+.buttons button.btn {
+  background-color: #5fa232;
+}
+
+.buttons button:hover {
+  background-color: #5fa232;
+}
+
+/* background image 3*/
+.bg-amazing {
+  background-image: url(../images/bg-image-3.jpg);
+  height: 70vh;
+}
+
+.deals-text {
+  margin-top: 200px;
+}
+
+.deals-text h1 span {
+  color: var(--primary-color);
+}
+
+.deals-text button {
+  background-color: var(--primary-color);
+}
+
+/* background-img-4 */
+.background-img-4 {
+  background-image: url(../images/background-image-4.png);
+  height: 70vh;
+  background-color: #f4f4f5;
+}
+
+/* second last cards */
+.ceo-name {
+  color: var(--secondary-color);
+}
+
+.span-text {
+  color: var(--primary-color);
+}
+
+.small-icon {
+  margin-left: 240px;
+  color: var(--primary-color);
+}
+
+/* Footer Section */
+.bg-image-footer {
+  background-image: url(../images/bg-footer\ \(1\).jpg);
+}
+
+.copy-right p {
+  color: var(--secondary-color);
+}
+
+.copy-right span {
+  color: var(--primary-color);
+}

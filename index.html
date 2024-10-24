@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project 3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="./style.css/index.css" />
+  </head>
+  <body>
+    
+    <div class="bg-image">
+      <!-- First Navbar -->
+
+      <header id="header-bg">
+        <div class="container d-none d-sm-block">
+          <div
+            class="d-flex flex-column flex-md-row align-items-center justify-content-between mt-3"
+          >
+            <div class="mt-2 text-center text-md-start">
+              <p class="text-white ms-md-4 fw-bold fs-6">
+                Welcome to our Organic store Organico!
+              </p>
+            </div>
+            <div
+              class="top-icons d-flex align-items-center justify-content-center justify-content-md-start mt-2 mt-md-0"
+            >
+              <a class="nav-link active" aria-current="page" href="#">
+                <iconify-icon
+                  class="icon py-2 px-2 rounded-5"
+                  icon="flowbite:facebook-solid"
+                ></iconify-icon
+              ></a>
+              <a class="nav-link ms-4" href="#">
+                <iconify-icon
+                  class="icon py-2 px-2 rounded-5"
+                  icon="mingcute:twitter-fill"
+                ></iconify-icon>
+              </a>
+              <a class="nav-link ms-4" href="#">
+                <iconify-icon
+                  class="icon py-2 px-2 rounded-5"
+                  icon="ri:linkedin-fill"
+                ></iconify-icon>
+              </a>
+              <a class="nav-link ms-4" href="#">
+                <iconify-icon
+                  class="icon py-2 px-2 rounded-5"
+                  icon="mynaui:letter-p-circle-solid"
+                ></iconify-icon>
+              </a>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-md-end mt-3 mt-md-0"
+            >
+              <a href="./pages/login-page/login.html" class="text-decoration-none">
+                <span  class="login-text text-white fw-bold fs-6">Login</span>
+              </a>
+              <div>
+                <p class="mt-3 ms-2 me-2 text-white fw-bold">|</p>
+              </div>
+              <a href="./pages/register-page/register.html" class="text-decoration-none">
+                <span class="login-text text-white me-5 fw-bold fs-6">Register</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Second Navbar -->
+
+      <nav class="header-style navbar navbar-expand-lg bg-white sticky-md-top sticky-lg-top sticky-sm-top z-3">
+        <div class="container">
+          <!-- Logo -->
+          <div class="d-flex justify-content-betwee align-items-center">
+            <div>
+              <a class="navbar-brand" href="./index.html">
+                <img
+                  class="img-fluid hero-logo w-25"
+                  src="./images/organic-logo.png"
+                  alt="hero-logo"
+                />
+              </a>
+            </div>
+            <div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <div class="dropdown register-text mb-2 mb-md-0 mx-2">
+                <a
+                  class="text-decoration-none text-black dropdown-toggle fw-bold fs-6"
+                  href="./index.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Home</a
+                >
+              </div>
+              <div class="dropdown register-text mb-2 mb-md-0 mx-2">
+                <a
+                  class="text-decoration-none text-black dropdown-toggle fw-bold fs-6"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Pages</a
+                >
+              </div>
+              <div class="dropdown register-text mb-2 mb-md-0 mx-2">
+                <a
+                  class="text-decoration-none text-black dropdown-toggle fw-bold fs-6"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Shop</a
+                >
+              </div>
+              <div class="dropdown register-text mb-2 mb-md-0 mx-2">
+                <a
+                  class="text-decoration-none text-black dropdown-toggle fw-bold fs-6"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Portfolio</a
+                >
+              </div>
+              <div class="dropdown register-text mb-2 mb-md-0 mx-2">
+                <a
+                  class="text-decoration-none text-black dropdown-toggle fw-bold fs-6"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Blog</a
+                >
+              </div>
+              <div class="dropdown register-text mb-2 mb-md-0 mx-2">
+                <a
+                  class="text-decoration-none text-black dropdown-toggle fw-bold fs-6"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Elements</a
+                >
+              </div>
+            </ul>
+
+            <div class="d-flex align-items-center me-5 ">
+              <div class="position-relative me-3">
+                <a class="nav-link" href="#">
+                  <iconify-icon class="icon" icon="mynaui:heart"></iconify-icon>
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    >0</span>
+                </a>
+              </div>
+
+              <button class="btn border-0 fs-6 fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <div class="position-relative me-3">
+                <a id="" class="nav-link" href="#">
+                  <iconify-icon class="icon"icon="bytesize:cart"></iconify-icon>
+                    <span id="cartQuantityBadge"class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                </a>
+              </div> 
+            </button>
+
+
+              <!-- Search Icon -->
+              <div>
+                <a class="nav-link" href="#">
+                  <iconify-icon
+                    class="icon"
+                    icon="iconoir:search"
+                  ></iconify-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div id="hero-heading" class="text-center text-white">
+        <h1 class="fs-1 fw-bolder">
+          Always Fresh &
+          <strong id="organic" class="fs-1 fwbolder">Organic</strong> <br />
+          Vegetables
+        </h1>
+        <p class="fs-5 fw-normal mt-2">
+          Our Job is to filling your Tummy with Delicious Healthy Food <br />
+          and Fast free Delivery
+        </p>
+        <div class="btns">
+          <button class="fs-5 fw-bold mt-2 text-white py-2 px-4 rounded-2 border-0">
+            Shop Now
+          </button>
+          <button
+            class="about-btn fs-5 fw-bold mt-2 text-white py-2 px-4 ms-3 rounded-2 border-1"
+          >
+            About Us
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-heading text-center mt-5">
+      <h1 class="fs-1 fw-bolder">
+        Our Special <span class="fs-1 fw-bolder">Features</span>
+      </h1>
+      <p class="fs-5 fw-normal">
+        Our purpose is to build solutions that remove barriers preventing people
+        <br />
+        from doing their best work, and this is at the heart.
+      </p>
+    </div>
+
+    <!-- cards -->
+
+    <div class="container py-5 mt-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100 text-center border-0 shadow-sm">
+            <img
+              src="./images/vegetable-icon-1.png"
+              class="img-fluid card-img-top mx-auto w-50"
+              alt="Fresh Organic Vegetable"
+            />
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Fresh Organic Vegetable</h5>
+              <p class="card-text fs-6 fw-normal">
+                Not only a great theme, but the customer support is absolutely
+                excellent.
+              </p>
+              <button class="card-btn border-2 py-2 px-4 rounded-2 fs-6 fw-bold">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100 text-center border-0 shadow-sm">
+            <img
+              src="./images/bike-icon.png"
+              class="img-fluid card-img-top mx-auto w-50"
+              alt="Fast & Easy Grocery Delivery"
+            />
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">
+                Fast & Easy Grocery Delivery
+              </h5>
+              <p class="card-text fs-6 fw-normal">
+                Support is helping to fix my issues now from my previous
+                statement.
+              </p>
+              <button class="card-btn border-2 py-2 px-4 rounded-2 fs-6 fw-bold">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100 text-center border-0 shadow-sm">
+            <img
+              src="./images/mobile-icon-1.png"
+              class="img-fluid card-img-top mx-auto w-50"
+              alt="Very Easy Payment System"
+            />
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bold">Very Easy Payment System</h5>
+              <p class="card-text fs-6 fw-normal">
+                Best customer services and with quality design like this! You
+                guys are the best.
+              </p>
+              <button class="card-btn border-2 py-2 px-4 rounded-2 fs-6 fw-bold">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <!-- Heading-->
+    <div class="container top-heading mt-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <h1 class="fw-bolder">
+            Popular<span class="fw-bolder mx-3">Category</span>
+          </h1>
+          <p class="fs-6 fw-normal">
+            Our purpose is to build solutions that remove barriers preventing
+            people <br />
+            from doing their best work, and this is at the heart.
+          </p>
+        </div>
+        <div>
+          <iconify-icon
+            class="icon erro mx-3 fs-4 fw-bolder mt-4 px-2 py-1 rounded-2"
+            icon="mynaui:arrow-left-square-solid"
+          ></iconify-icon>
+          <iconify-icon
+            class="icon erro mx-2 fs-4 fw-bolder mt-4 px-2 py-1 rounded-2"
+            icon="mynaui:arrow-right-square-solid"
+          ></iconify-icon>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fruit Cards Section -->
+    <div class="container mt-5">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 text-center g-4">
+        <div class="col fruit-section shadow-sm">
+          <img
+            class="img-fluid mb-2 py-2 px-3"
+            src="./images/dried-fuit.jpg"
+            alt="fruit-img"
+          />
+          <h5 class="fs-5 fw-bold">Dried</h5>
+        </div>
+        <div class="col fruit-section shadow-sm">
+          <img
+            class="img-fluid mb-2 py-2 px-3"
+            src="./images/juice-img.jpg"
+            alt="juice-img"
+          />
+          <h5 class="fs-5 fw-bold">Juice</h5>
+        </div>
+        <div class="col fruit-section shadow-sm">
+          <img
+            class="img-fluid mb-2 py-2 px-3"
+            src="./images/salad-img.jpg"
+            alt="salad-img"
+          />
+          <h5 class="fs-5 fw-bold">Salad</h5>
+        </div>
+        <div class="col fruit-section shadow-sm">
+          <img
+            class="img-fluid mb-2 py-2 px-3"
+            src="./images/organi-img.jpg"
+            alt="organic-img"
+          />
+          <h5 class="fs-5 fw-bold">Organic</h5>
+        </div>
+        <div class="col fruit-section shadow-sm">
+          <img
+            class="img-fluid mb-2 py-2 px-3"
+            src="./images/raciepies.jpg"
+            alt="recipies-img"
+          />
+          <h5 class="fs-5 fw-bold">Recipies</h5>
+        </div>
+        <div class="col fruit-section shadow-sm">
+          <img
+            class="img-fluid mb-2 py-2 px-3"
+            src="./images/vegetables.jpg"
+            alt="Vegetable-img"
+          />
+          <h5 class="fs-5 fw-bold">Vegetable</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- bg image section -->
+
+    <div class="container mt-5 mb-4">
+      <div class="row justify-content-center">
+        <div
+          class="col-12 col-md-8 col-lg-6 bg-image-3 object-fit-cover w-100 h-100 rounded-4 text-center p-4">
+          <div class="organic-heading">
+            <p class="text-white fs-5 fw-bold">
+              Start from <span class="fs-5 fw-bold">$39.99</span>
+            </p>
+            <h1 class="text-white fs-1 fw-bolder">
+              Organic Food up to 20% off
+            </h1>
+            <button
+              class="text-white mt-3 fs-6 fw-bold border-0 py-2 px-4 rounded-2">
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Heading -->
+    <div class="container top-heading mt-5">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-8">
+          <h1 class="fw-bolder">
+            Trending <span class="fw-bolder mx-2">Products</span>
+          </h1>
+          <p class="fs-6 fw-normal">
+            We understand the importance of approaching each work integrally and
+            <br />
+            believe in the power of simple and easy communication.
+          </p>
+        </div>
+        <div class="col-12 col-md-4 text-md-end mt-3 mt-md-0">
+          <div class="buttons">
+            <button class="border-0 btn py-2 px-2 rounded-2 fw-bold text-white">
+              All Products
+            </button>
+            <button class="border-0 py-2 px-2 rounded-2 fw-bold">
+              Fresh Fruits
+            </button>
+            <button class="border-0 py-2 px-2 rounded-2 fw-bold">Nature</button>
+            <button class="border-0 py-2 px-2 rounded-2 fw-bold">
+              Recipes
+            </button>
+            <button class="border-0 py-2 px-2 rounded-2 fw-bold">
+              Vegetable
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second add to Cards section -->
+
+     <div class="container py-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./images/orange.png" class="img-fluid card-img-bg card-img-top" alt="Fresh Orange" />
+            <div class="card-body cards-styling">
+              <h5 class="product-title fs-4 fw-bold">Fresh Orange</h5>
+              <p class="new-price">$12.00 - $65.00</p>
+              <button
+              class="btn text-white fw-bold px-4 add-to-cart"
+              data-name="Fresh Orange" 
+              data-price="12.00 - 65.00"  
+              data-img="./images/orange.png">
+              <span class="fw-bold py-2 px-4">Select</span>
+            </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./images/apple.png" class="img-fluid card-img-bg  card-img-top" alt="Red Apple Envy" />
+            <div class="card-body cards-styling">
+              <h5 class="product-title fs-4 fw-bold">Red Apple Envy</h5>
+              <p>
+                <span class="old-price fs-6 fw-normal"><s>$24.00</s></span>
+                <span class="new-price fs-6 fw-normal">$18.00</span>
+              </p>
+              <button 
+              class="btn text-white fw-bold px-4 add-to-cart"
+              data-name="Red Apple Envy" 
+              data-price="24.00 18.00"  
+              data-img="./images/apple.png">
+              <span class="fw-bold py-2 px-4">Add to cart</span>
+            </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./images/couliflower.png" class="img-fluid card-img-bg  card-img-top" alt="Green Bow" />
+            <div class="card-body cards-styling">
+              <h5 class="product-title fs-4 fw-bold">Green Bow</h5>
+              <p class="new-price fs-6 fw-normal">$4.00</p>
+              <button 
+              class="btn text-white fw-bold px-4 add-to-cart"
+              data-name="Green Bow" 
+              data-price="4.00"  
+              data-img="./images/couliflower.png">
+              <span class="fw-bold py-2 px-4">Add to cart</span>
+            </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./images/lemon.png" class="img-fluid card-img-bg  card-img-top" alt="Organic Lemon" />
+            <div class="card-body cards-styling">
+              <h5 class="product-title fs-4 fw-bold">Organic Lemon</h5>
+              <p class="new-price fs-6 fw-normal">$12.00</p>
+              <button 
+              class="btn text-white fw-bold px-4 add-to-cart"
+              data-name="Organic Lemon" 
+              data-price="12.00"   
+              data-img="./images/lemon.png">
+              <span class="fw-bold py-2 px-4">Add to cart</span>
+            </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./images/carrots.png" class="img-fluid card-img-bg  card-img-top" alt="Organic Carrot" />
+            <div class="card-body cards-styling">
+              <h5 class="product-title fs-4 fw-bold">Organic Carrot</h5>
+              <p>
+                <span class="old-price fs-6 fw-normal"><s>$12.00</s></span>
+                <span class="new-price fs-6 fw-normal">$8.00</span>
+              </p>
+              <button 
+              class="btn text-white fw-bold px-4 add-to-cart"
+              data-name="Organic Carrot" 
+              data-price="12.00 8.0"  
+              data-img="./images/carrots.png">
+              <span class="fw-bold py-2 px-4">Add to cart</span>
+            </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./images/cabagge.png" class="img-fluid card-img-bg  card-img-top" alt="Organic Cabbage" />
+            <div class="card-body cards-styling">
+              <h5 class="product-title fs-4 fw-bold">Organic Cabbage</h5>
+              <p>
+                <span class="old-price fs-6 fw-normal"><s>$30.00</s></span>
+                <span class="new-price fs-6 fw-normal">$22.00</span>
+              </p>
+              <button 
+              class="btn text-white fw-bold px-4 add-to-cart"
+              data-name="Organic Cabbage" 
+              data-price="30.00"  
+              data-img="./images/cabagge.png">
+              <span class="fw-bold py-2 px-4">Add to cart</span>
+            </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./images/potatos.png" class="img-fluid card-img-bg  card-img-top" alt="Organic Potato" />
+            <div class="card-body cards-styling">
+              <h5 class="product-title fs-4 fw-bold">Organic Potato</h5>
+              <p class="new-price fs-6 fw-normal">$4.00</p>
+              <button 
+              class="btn text-white fw-bold px-4 add-to-cart"
+              data-name="Organic Potato" 
+              data-price="4.00"  
+              data-img="./images/potatos.png">
+              <span class="fw-bold py-2 px-4">Select</span>
+            </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./images/peas.png" class="img-fluid card-img-bg  card-img-top" alt="Organic Peas" />
+            <div class="card-body cards-styling">
+              <h5 class="product-title fs-4 fw-bold">Organic Peas</h5>
+              <p>
+                <span class="old-price fs-6 fw-normal"><s>$10.00</s></span>
+                <span class="new-price fs-6 fw-normal">$6.00</span>
+              </p>
+              <button 
+              class="btn text-white fw-bold px-4 add-to-cart"
+              data-name="Organic Peas" 
+              data-price="10.00 6.00"   
+              data-img="./images/peas.png">
+              <span class="fw-bold py-2 px-4">Add to cart</span>
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     
+    
+    
+    <!-- bg image 3 -->
+    <div class="bg-amazing object-fit-cover mt-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <div class="deals-text">
+              <h1 class="text-white fs-1 fw-bolder">
+                Deals Of The <span class="fs-1 fw-bolder">Weeks</span>
+              </h1>
+              <p class="text-white mt-3 fs-6 fw-bold">
+                Organio is a design studio founded in London. Nowadays, we’ve
+                grown and <br />
+                expanded our services, and have become a multinational firm.
+              </p>
+              <div class="d-flex mt-3">
+                <button
+                  class="me-3 py-1 px-3 text-white fs-6 fw-bold rounded-2 border-0"
+                >
+                  2155<br />
+                  DAYS
+                </button>
+                <button
+                  class="me-3 py-1 px-3 text-white fs-6 fw-bold rounded-2 border-0"
+                >
+                  12<br />
+                  Hours
+                </button>
+                <button
+                  class="me-3 py-1 px-4 text-white fs-6 fw-bold rounded-2 border-0"
+                >
+                  34<br />
+                  Min
+                </button>
+                <button
+                  class="me-3 py-1 px-4 text-white fs-6 fw-bold rounded-2 border-0">
+                  48<br />
+                  Sec
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cards section -->
+
+    <div class="container text-center py-5 expert-farmers">
+      <div class="row mb-4">
+        <div class="col-12">
+          <div class="top-heading text-center mt-5">
+            <h1 class="fs-1 fw-bolder">
+              Our Farm Land<span class="fs-1 fw-bolder mx-2">Farmers</span>
+            </h1>
+            <p class="fs-6 fw-normal">
+              We love what we do and we do it with passion. We value the
+              experimentation of the <br />
+              message and smart incentives.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="p-3 bg-light">
+            <img
+              src="./images/man-img-1.jpg"
+              alt="man-img-1"
+              class="img-fluid rounded"
+            />
+            <h4 class="text-dark mt-3 fw-bold">Alexa maxwel</h4>
+            <span class="text-muted">CEO/ Managing Director</span>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="p-3 bg-light">
+            <img
+              src="./images/man-img-2.jpg"
+              alt="man-img-2"
+              class="img-fluid rounded"
+            />
+            <h4 class="text-dark mt-3 fw-bold">Justin Robert</h4>
+            <span class="text-muted">Manager</span>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="p-3 bg-light">
+            <img
+              src="./images/woman-img-2.jpg"
+              alt="woman-img-2"
+              class="img-fluid rounded"
+            />
+            <h4 class="text-dark mt-3 fw-bold">Louis Agassiz</h4>
+            <span class="text-muted">Arganic Farmer</span>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="p-3 bg-light">
+            <img
+              src="./images/man-img-4.jpg"
+              alt="man-img-4"
+              class="img-fluid rounded"
+            />
+            <h4 class="text-dark mt-3 fw-bold">Carl Anderson</h4>
+            <span class="text-muted">Agriculturist</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Last-bg-img -->
+
+    <div class="background-img-4 object-fit-cover mt-5">
+      <div class="container">
+        <div class="row align-items-center top-heading">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <img class="img-fluid" src="./images/woman-image.png" alt="woman-image" />
+          </div>
+          <div class="col-12 col-md-6 text-center text-md-start">
+            <h1 class="fs-2 fs-md-1 fw-bolder">What our Clients are</h1>
+            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+              <div class="span-text mb-3">
+                <span class="fs-3 fs-md-1 fw-bolder">Saying</span>
+              </div>
+              <div class="d-none d-sm-block">
+                <iconify-icon class="small-icon fs-3 fs-md-1 fw-bolder" icon="ri:double-quotes-r"></iconify-icon>
+              </div>
+            </div>
+            <p class="fs-6 fs-md-5 fw-normal d-none d-sm-block">
+              Working with several world themes and templates the last year, I only <br />
+              say this is the best in every level. I use it for my company and the reviews <br />
+              that I have already are all excellent.
+            </p>
+            <strong class="ceo-name fs-6 fs-md-5 fw-bold">Leslie Alexander</strong>
+            <p class="mt-2 fs-7 fs-md-6 fw-normal mb-5 d-none d-sm-block">CEO/ Founder</p>
+            <div class="d-none d-md-flex"> 
+              <iconify-icon class="icon erro me-2 rounded-2 fs-4 fw-bolder mt-2 px-2 py-1" icon="mynaui:arrow-left-square-solid"></iconify-icon>
+              <iconify-icon class="icon erro rounded-2 fs-4 fw-bolder mt-2 px-2 py-1" icon="mynaui:arrow-right-square-solid"></iconify-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- last cards section -->
+    
+
+    <div class="container mt-5">
+      <div class="row latest-cards">
+        <div class="top-heading text-center mt-5">
+          <h1 class="display-4 fw-bolder">
+            <span class="mx-2">Latest</span>News & Blog
+          </h1>
+          <p class="fs-6 fw-normal">
+            Follow our latest news and thoughts which focuses exclusively on
+            design, art, <br />
+            vintage, and also work updates.
+          </p>
+        </div>
+    
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4 mt-3">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="./images/woman-img-3.jpg"
+              alt="woman-img-3"
+              class="img-fluid rounded card-img"
+            />
+            <div class="card-body">
+              <p class="text-dark fw-bold">
+                Fresh Meat
+                <span class="text-muted float-end">March 17, 2021</span>
+              </p>
+              <h5 class="text-muted">
+                Our 6 of the Best Organic <br />
+                Chocolates to Buy
+              </h5>
+            </div>
+            <div class="card-footer bg-transparent border-0 text-start">
+              <button class="card-btn border-3 py-2 px-4 rounded-2 fs-6 fw-bold">Read More</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4 mt-3">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="./images/egg-img.jpg"
+              alt="egg-img"
+              class="img-fluid rounded card-img"
+            />
+            <div class="card-body">
+              <p class="text-dark fw-bold">
+                Grocery & Frozen
+                <span class="text-muted float-end">March 17, 2021</span>
+              </p>
+              <h5 class="text-muted">
+                Best Guide to Shopping <br />
+                for Organic Ingredients
+              </h5>
+            </div>
+            <div class="card-footer bg-transparent border-0 text-start">
+              <button class="card-btn border-3 py-2 px-4 rounded-2 fs-6 fw-bold">Read More</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4 mt-3">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="./images/icecream-img.jpg"
+              alt="icecream-img"
+              class="img-fluid rounded card-img"
+            />
+            <div class="card-body">
+              <p class="text-dark fw-bold">
+                Grocery & Frozen
+                <span class="text-muted float-end">March 17, 2021</span>
+              </p>
+              <h5 class="text-muted">
+                Zechsal Magnesium<br />
+                Flakes Especially Made
+              </h5>
+            </div>
+            <div class="card-footer bg-transparent border-0 text-start">
+              <button class="card-btn border-3 py-2 px-4 rounded-2 fs-6 fw-bold">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Footer Section  -->
+
+
+    <div class="bg-image-footer object-fit-cover mt-5 py-5">
+      <div class="container text-white mt-5">
+        <div class="row text-center text-md-start justify-content-center align-items-center" style="min-height: 300px;">
+      
+          <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
+            <a href="./index.html">
+                <img class="mb-4" width="180px" src="./images/logo-footer.png" alt="hero-logo" />
+            </a>
+            <p class="fs-6 fw-normal text-center">
+                The variety of products available at our store <br> at the moment is vast,
+                but we still continue to <br> widen our assortment.
+            </p>
+            <div class="top-icons d-flex mt-2">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="flowbite:facebook-solid"></iconify-icon>
+                </a>
+                <a class="nav-link ms-4" href="#">
+                    <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="mingcute:twitter-fill"></iconify-icon>
+                </a>
+                <a class="nav-link ms-4" href="#">
+                    <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="ri:linkedin-fill"></iconify-icon>
+                </a>
+                <a class="nav-link ms-4" href="#">
+                    <iconify-icon class="icon py-2 px-2 rounded-5 text-black bg-white" icon="lets-icons:world-light"></iconify-icon>
+                </a>
+            </div>
+        </div>
+        
+          <div class="col-md-2 mt-5">
+            <h5 class="text-center text-md-start fs-5 fw-bold mb-4">Information</h5>
+            <ul class="list-unstyled text-center text-md-start">
+              <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal ">Specials</a></li>
+              <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal ">Wishlist</a></li>
+              <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal ">Compare</a></li>
+              <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal ">Our Stores</a></li>
+              <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal ">About Us</a></li>
+              <li><a href="#" class="text-white text-decoration-none fs-6 fw-normal ">Contact Us</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-2 mt-5">
+            <h5 class="text-center text-md-start fs-5 fw-bold mb-4 mt-3">Categories</h5>
+            <ul class="list-unstyled text-center text-md-start">
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Bread & Bakery</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Grocery & Frozen</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Compare</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Fresh Fruits</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Fresh Meat</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Organic</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Recipes</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-md-2 mt-5">
+            <h5 class="text-center text-md-start fs-5 fw-bold mb-4">My Account</h5>
+            <ul class="list-unstyled text-center text-md-start">
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">My Account</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Order History</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Wishlist</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Specials</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">Newsletter</a></li>
+              <li><a href="#" class="text-white text-decoration-none  fs-6 fw-normal">About Us</a></li>
+            </ul>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="container copy-right">
+      <div class="row align-items-center py-3">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="fs-5 fw-bold">© 2024 Organio – <span class="fs-5 fw-bold">CaseThemes</span>. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <img class="img-fluid" src="./images/payment-icons2.png" alt="Footer Payment Logo">
+        </div>
+      </div>
+    </div>
+
+    <!-- offcanvas -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+          <h5 class="offcanvas-title fw-bold" id="offcanvasRightLabel">Purchase Cart</h5>
+          <button type="button" class="btn-close btn border-0 fs-5 fw-bold text-white" data-bs-dismiss="offcanvas" aria-label="Close">Add to Cart</button>
+      </div>
+      <div class="offcanvas-body" id="cartItems">
+          <div id="cartItems"></div>
+       <span id="cartQuantityBadge"></span>
+       <div id="totalPrice"></div>
+          <p>Empty!</p>
+      </div>
+      <div class="offcanvas-footer container mb-5">
+          <hr />
+          <div class="">
+              <strong class="text-black-50">total:</strong>
+              <strong id="totalPrice">$0.00</strong>
+          </div>
+          <div class="d-flex justify-content-between mt-2">
+            
+          </div>
+      </div>
+     </div>
+    
+    
+<script src="./vanilla.js/script.js"></script>
+  </body>
+</html>

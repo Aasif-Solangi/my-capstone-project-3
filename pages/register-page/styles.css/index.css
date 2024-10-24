@@ -1,0 +1,25 @@
+.header {
+  background-color: #76a713;
+}
+body {
+  overflow-x: hidden;
+}
+/* bg-footer */
+.bg-mailchimp {
+  background-image: url(../../../images/bg-mailchimp.jpg);
+  border-radius: 100px;
+}
+
+.input-text input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+.input-text .input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+}
